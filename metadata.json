@@ -1,40 +1,40 @@
 {
   "id": "IB42962D2",
   "title": {
-    "en": "None",
-    "bo": "དབུ་མ་འཇུག་པ་ལས་སེམས་བསྐྱེད་དྲུག་པ། ཤོ་ལོ་ཀ ༡ ནས་ ༦༤"
+    "bo": "དབུ་མ་འཇུག་པ་ལས་སེམས་བསྐྱེད་དྲུག་པ། ཤོ་ལོ་ཀ ༡ ནས་ ༦༤",
+    "en": "None"
   },
   "author": {
-    "en": "Candrakirti",
-    "bo": "ཟླ་བ་གྲགས་པ།"
+    "bo": "ཟླ་བ་གྲགས་པ།",
+    "en": "Candrakirti"
   },
-  "imported": "2025-02-04T20:17:48.910482",
+  "imported": "2025-02-05T05:44:23.959164",
   "source": "http://purl.bdrc.io/resource/WA1NLM688",
   "toolkit_version": "0.0.1",
   "parser": "GoogleDocTranslationParser",
   "initial_creation_type": "google_docx",
   "language": "bo",
   "source_metadata": {
+    "document_id": "1_Qu010kD0RIUcZzcSy4_5QKU8x9mZpDFAJim7Av7fNA",
+    "long_title": {
+      "no": "དབུ་མ་འཇུག་པ་ལས་སེམས་བསྐྱེད་དྲུག་པ། ཤོ་ལོ་ཀ ༡ ནས་ ༦༤",
+      "en": "None"
+    },
     "presentation": {
       "en": ""
     },
     "usage_title": {
-      "en": "None",
-      "bo": "དབུ་མ་འཇུག་པ་ལས་སེམས་བསྐྱེད་དྲུག་པ། ཤོ་ལོ་ཀ ༡ ནས་ ༦༤"
-    },
-    "long_title": {
-      "en": "None",
-      "no": "དབུ་མ་འཇུག་པ་ལས་སེམས་བསྐྱེད་དྲུག་པ། ཤོ་ལོ་ཀ ༡ ནས་ ༦༤"
-    },
-    "document_id": "1_Qu010kD0RIUcZzcSy4_5QKU8x9mZpDFAJim7Av7fNA"
+      "bo": "དབུ་མ་འཇུག་པ་ལས་སེམས་བསྐྱེད་དྲུག་པ། ཤོ་ལོ་ཀ ༡ ནས་ ༦༤",
+      "en": "None"
+    }
   },
   "bases": [
     {
-      "B049": {
+      "F741": {
         "source_metadata": {
-          "total_segments": 0
+          "total_segments": 64
         },
-        "base_file": "B049.txt"
+        "base_file": "F741.txt"
       }
     }
   ],
