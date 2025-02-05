@@ -1,6 +1,6 @@
 from pathlib import Path
 from pecha_uploader.config import Destination_url
-from pecha_uploader.pipeline import upload_commentary
+from pecha_uploader.pipeline import upload_root
 from openpecha.pecha import Pecha
 import subprocess
 from openpecha.utils import read_json, write_json
@@ -53,7 +53,7 @@ def update_the_json(pecha: Pecha):
         new_content.append(updated_text)
     commentary_json["target"]["books"][0]["content"][0] = new_content
     write_json(Path(f"{pecha.pecha_path}/{pecha_id}.json"), commentary_json)
-    upload_commentary(Path(f"{pecha.pecha_path}/{pecha_id}.json"), Destination_url.PRODUCTION, overwrite=True)
+    upload_root(Path(f"{pecha.pecha_path}/{pecha_id}.json"), Destination_url.PRODUCTION, overwrite=True)
     
 
 def main():
